@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image:url("images/v530batch2-nunoon-05-planners.jpg");
+   background-size: cover;
+   background-position: center;
+
+}
+.box{
+  width: 300px;
+  padding: 30px;
+  position:absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%,-5%);
+  background:none;
+  text-align: center;
+}
+.box h1{
+  color:black;
+  text-transform: uppercase;
+  font-weight: 500;
+  
+}
+.box input[type="text"],.box input[type="password"]
+{
+  border: 0; 
+  background:black; 
+  display: block;
+margin: 20px auto;
+ text-align: center;
+  border:3px solid red ;
+ padding: 14px 10px;
+   outline: none; 
+   color:white;
+   border-radius: 24px;
+   transition: 0.25px;
+
+}
+.box input[type="text" ]:focus, .box input[type="password"]:focus{
+ width:278px;
+  border-color:yellow;
+  
+}
+  .box input[type="submit"]
+  { border: 0;
+     background: none; 
+     display: block;
+     margin: 20px auto;
+      text-align: center;
+      border: 3px solid yellow;
+      padding: 14px 10px;
+      outline: none;
+      color: black;
+      border-radius: 24px;
+      transition: 0.25px;
+      cursor: pointer;
+  }
+  .box input[type="submit"]:hover{
+    background:yellowgreen;
+  }
+    
+  
+
+
+  
